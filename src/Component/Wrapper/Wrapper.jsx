@@ -5,6 +5,7 @@ import SideNav from '../SideNav/SideNav';
 import bars from "../../assets/react.svg"
 import Dashboard from "../Dashboard/Dashboard";
 import Header from '../Header/Header';
+import AddOns from '../AddOns/AddOns';
 
 function Wrapper() {
 
@@ -42,6 +43,8 @@ function Wrapper() {
     switch (selectedComponent) {
       case 'dashboard':
         return <Dashboard />;
+      case 'AddOns':
+        return <AddOns/>;
       default:
         return null;
     }

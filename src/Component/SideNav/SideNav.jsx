@@ -43,9 +43,9 @@ function SideNav({ onNavItemClick }) {
                 <div className={Css.SideMenu}>
                     <ul>
                         <li onClick={() => handleClick('dashboard')} className={`${active === "dashboard" ? Css.active : "" }`}><img  width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/control-panel--v1.png" alt="control-panel--v1"/><span>Dashboard</span></li>
-                        <li onClick={() => handleClick('EmployeeTable')} className={`${active === "EmployeeTable" ? Css.active : "" }`} ><img width="30" height="30" src="https://img.icons8.com/ios/50/user-group-man-man.png" alt="user-group-man-man"/><span>Menu</span></li>
+                        <li onClick={() => handleClick('AddOns')} className={`${active === "EmployeeTable" ? Css.active : "" }`} ><img width="30" height="30" src="https://img.icons8.com/ios/50/user-group-man-man.png" alt="user-group-man-man"/><span>Menu</span></li>
                         <li onClick={() => handleClick('BalanceSheet')} className={`${active === "BalanceSheet" ? Css.active : "" }`}><img width="30" height="30" src="https://img.icons8.com/ios/50/overview-pages-2.png" alt="overview-pages-2"/><span>Food</span></li>
-                        <li onClick={() => handleClick('Tracker')} className={`${active === "Tracker" ? Css.active : "" }`}><img width="30" height="30" src="https://img.icons8.com/ios/50/statistics.png" alt="statistics"/><span>Modifiers</span></li>
+                        <li onClick={() => handleClick('AddOns')} className={`${active === "Tracker" ? Css.active : "" }`}><img width="30" height="30" src="https://img.icons8.com/ios/50/statistics.png" alt="statistics"/><span>Modifiers</span></li>
                         <li onClick={()=> {toggle()}}><span>P</span><span>Products</span></li>
                         <Products/>
                         
