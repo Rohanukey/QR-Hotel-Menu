@@ -218,5 +218,35 @@
     .heading{
         width: 580px;
     }
+
+   
     
+
+   
+}
+
+@media screen and (max-width:420px)  {
+    .form {
+        width: 300px;
+        min-height: 250px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        background-color: #1B9C85;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px black;
+    }
+
+    .form input {
+        width: 240px;
+        height: 20px;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+
 }
