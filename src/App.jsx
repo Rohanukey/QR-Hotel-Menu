@@ -5,11 +5,9 @@ import CategoryPage from './Component/Category/Category';
 
 function App() {
 
-
   return (
     <>
      <CategoryPage />
-     
     </>
   )
 }
