@@ -11,6 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
+DeffComponenet
+faizan
+backup
 
 # Editor directories and files
 .vscode/*
