@@ -127,17 +127,18 @@ function AddOns() {
                         <h2>Add-Ons</h2>
                         <button onClick={toggleFormVisibility}>Add</button>
                     </div>
-                    <div className={Css.heading}>
-                        <div className={Css.container}><h3>Name</h3></div>
-                        <div className={Css.container}><h3>Price</h3></div>
-                        <div className={Css.container}><h3>Portion</h3></div>
-                    </div>
-                    <ul>
+
+                    <div className={Css.list}>
+                        <div className={Css.heading}>
+                            <div className={Css.container}><h3>Name</h3></div>
+                            <div className={Css.container}><h3>Price</h3></div>
+                            <div className={Css.container}><h3>Portion</h3></div>
+                        </div>
                         {addonList.map((addon) => (
                             <div key={addon.id} className={Css.section}>
                                 <div className={Css.items}>
                                     <div className={Css.container}><h4>{addon.Name}</h4></div>
-                                    <div className={Css.container}><h4>{addon.Price}</h4></div>
+                                    <div className={Css.container}><h4>{addon.Price} Rs</h4></div>
                                     <div className={Css.container}><h4>{addon.Portion}{addon.Unit}</h4></div>
                                 </div>
                                 <div className={Css.options}>
@@ -146,7 +147,7 @@ function AddOns() {
                                 </div>
                             </div>
                         ))}
-                    </ul>
+                    </div>
                 </div>
             </div>
             {isFormVisible && (
@@ -180,6 +181,7 @@ function AddOns() {
                                 <option value={"grams"}>grams</option>
                                 <option value={"kg"}>kg</option>
                                 <option value={"ml"}>ml</option>
+                                <option value={"peice"}>peice</option>
                             </select>
                         </div>
                         <div className={Css.btns}>

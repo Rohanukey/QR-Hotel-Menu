@@ -1,27 +1,27 @@
-.Container{
+.counter{
     width: 450px;
-    height: 60px;
+    height: 80px;
     background-color: #387ADF;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     border-radius: 10px ;
-    padding: 20px;
+    padding: 10px;
     gap: 5px;
 }
 
-.Container span{
+.counter span{
     font-size: 24px;
     font-weight: 500;
     color:white;
 }
-.Container h2{
+.counter h2{
     font-size: 16px;
     font-weight: 500;
     color:white;
 }
-.Container h4{
+.counter h4{
     font-size: 12px;
     font-weight: 400;
     color:white;

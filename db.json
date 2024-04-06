@@ -1,17 +1,9 @@
 {
   "addons": [
     {
-      "id": "bacc",
-      "Name": "fries",
-      "Price": "120",
-      "Unit": "",
-      "Portion": "200",
-      "": "kg"
-    },
-    {
-      "Name": "sham_is _updated",
+      "Name": "sham_is _updated again",
       "Price": "56",
-      "Unit": "ml",
+      "Unit": "kg",
       "Portion": "56",
       "id": "8348"
     },
@@ -56,6 +48,13 @@
       "Price": "40",
       "Unit": "ml",
       "Portion": "50"
+    },
+    {
+      "id": "019c",
+      "Name": "Gulab jamun",
+      "Price": "40",
+      "Unit": "peice",
+      "Portion": "2"
     }
   ]
 }
