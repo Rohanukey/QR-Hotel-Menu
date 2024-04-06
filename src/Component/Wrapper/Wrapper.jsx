@@ -6,7 +6,9 @@ import bars from "../../assets/Bars.png"
 import Dashboard from "../Dashboard/Dashboard";
 import Header from '../Header/Header';
 import AddOns from '../AddOns/AddOns';
-import MergeHeader from '../MergeHeader/MergeHeader';
+import MergeHeader from '../MergeHeader/MergeHeader'; 
+import Catogery from '../Category/Category'; 
+
 
 function Wrapper() {
 
@@ -48,6 +50,8 @@ function Wrapper() {
         return <AddOns />;
       case 'MenuPage':
         return <MergeHeader />;
+      case 'Catogery':
+        return <Catogery/>;
       case 'Header':
         return <Header toggleToggleNav={toggleToggleNav} />;
       default:

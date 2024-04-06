@@ -48,7 +48,7 @@ function Dashboard() {
             <div className={Css.url}>
               <div>
                 <h4>Your Customer App url </h4>
-                <h3> Hi Rohan ukeynanociaociacicwipjcpajc,</h3>
+                <h3> Hi Rohan </h3>
               </div>
               <button className={Css.copy}>Copy</button>
             </div>
